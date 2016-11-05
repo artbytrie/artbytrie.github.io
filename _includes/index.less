@@ -1,0 +1,76 @@
+/* latin */
+@font-face {
+  font-family: 'Rock Salt';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rock Salt'), local('RockSalt'), url('../commons/fonts/rocksalt/v6/Q94aHXFHGip10K5uxi1jOJBw1xU1rKptJj_0jans920.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+.backclr(@clr) {
+	background-color: @clr;
+}
+
+.fontclr(@clr) {
+	color: @clr;
+}
+
+.backfontclrs(@bclr, @fclr) {
+	.backclr(@bclr);
+	.fontclr(@fclr);
+}
+
+body {
+	font-family: 'Rock Salt', cursive, monospace;
+}
+
+nav {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navbar-default {
+	.backclr(white);
+	border-bottom: 1px solid black;
+}
+
+#navbar a {
+	.fontclr(black)
+}
+
+#navbar > .navbar-nav a:hover {
+	.fontclr(blue);
+}
+
+.hr {
+}
+
+#ART {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid black;
+}
+
+.img-margin {
+	margin: 10px;
+}
+
+#credits {
+	padding: 20px;
+}
+
+.work {
+	height: 300px;
+}
+
+@media only screen and (max-width: 500px) {
+	.work {
+		width: 100%
+	}
+}
+
+.galleryimg {
+	// display: block; not needed to center image as img-responsive does this already
+	max-height: 250px; // bad things happen in a gallery if the height of each img is not controlled!
+	margin: auto; // needed to center image
+}

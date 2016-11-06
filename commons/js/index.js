@@ -1,3 +1,3 @@
 $(document).ready(function() {
-	$('#ART').fadeIn(2000);
+	$('#ART').add('#credits').fadeIn(2400);
 });

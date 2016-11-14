@@ -18,6 +18,16 @@
   alt: "Some cats"
   summary: 'Cats cats cats'
 
+- href: "magicguitar.JPG"
+  src: "magicguitar.jpg"
+  alt: "Some cats"
+  summary: 'Cats cats cats'
+
+- href: "decadence.jpg"
+  src: "decadence.jpg"
+  alt: "Some cats"
+  summary: 'Cats cats cats'
+
 - href: "lotus.JPG"
   src: "lotus.jpg"
   alt: "Some cats"
@@ -28,18 +38,18 @@
   alt: "Some cats"
   summary: 'Cats cats cats'
 
+- href: "fatema.JPG"
+  src: "fatema.jpg"
+  alt: "Some cats"
+  summary: 'Cats cats cats'
+
 - href: "arati.JPG"
   src: "arati.jpg"
   alt: "Some cats"
   summary: 'Cats cats cats'
 
-- href: "clover.JPG"
-  src: "clover.jpg"
-  alt: "Some cats"
-  summary: 'Cats cats cats'
-
-- href: "fatema.JPG"
-  src: "fatema.jpg"
+- href: "royal_silhouette.jpg"
+  src: "royal_silhouette.jpg"
   alt: "Some cats"
   summary: 'Cats cats cats'
 
@@ -48,8 +58,13 @@
   alt: "Some cats"
   summary: 'Cats cats cats'
 
-- href: "magicguitar.JPG"
-  src: "magicguitar.jpg"
+- href: "kindness.jpg"
+  src: "kindness.jpg"
+  alt: "Some cats"
+  summary: 'Cats cats cats'
+
+- href: "clover.JPG"
+  src: "clover.jpg"
   alt: "Some cats"
   summary: 'Cats cats cats'
 

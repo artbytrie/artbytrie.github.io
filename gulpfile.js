@@ -20,7 +20,7 @@ gulp.task('externalcss', function() {
 
 gulp.task('externaljs', function() {
 	return gulp.src([
-			'.externals/jquery/jquery-3.1.1.min.js',
+			'../../jquery/jquery/dist/jquery.min.js',
 			'.externals/bootstrap/js/bootstrap.min.js'
 			])
 		.pipe(concat('external.js').on('error', errorlog))

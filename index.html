@@ -18,8 +18,8 @@ header: indexhead.html
 	<div id="navbar" class="collapse navbar-collapse">
 		<ul class="nav navbar-nav navbar-right">
 			<li class="active"><a href="#ART">ART</a></li>
-			<li><a href="{{site.url}}/about/">ABOUT</a></li>
-			<li><a href="{{site.url}}/contact/">CONTACT</a></li>
+			<li><a href="#ABOUT">ABOUT</a></li>
+			<li><a href="#CONTACT">CONTACT</a></li>
 		</ul>
 	</div>
 </nav>
@@ -38,7 +38,60 @@ header: indexhead.html
 	</div>
 </div>
 
-<div class="hr"></div>
+<div id="ABOUT" class="container">
+	<div class="row">
+		<div class="col-lg-offset-1 col-sm-4 col-lg-3 text-center">
+			<img src="{{site.url}}/commons/images/min/me.jpg"
+				alt="Ayetri"
+				class="img-rounded"
+				height="350"
+				style="margin-bottom:10px">
+		</div>
+		<div class="col-sm-offset-1 col-sm-7 col-lg-6">
+			<p>Hi. I am Ayetri Roy, an aspiring contemporary artist based in New York. A feminist at heart, I promote social issues through my paintings, which are mainly themed by strong, independent women. Occasionally, I also paint about the day-to-day things I encounter in my life. As you will see, I have hopped around the world quite a bit!<br><br>
+
+			I am originally from Rangamati in Bangladesh, the daughter of the Chakma Chief, Raja Devasish Roy, and the late Rani Tatu Roy. In my childhood, I moved to the capital, Dhaka, to study at Green Herald School. I then moved around between Dhaka, Bangkok and Kodaikanal (India) to finally complete my high school studies in IB. Currently, I am pursuing my BBA at Monroe College in New Rochelle, New York.
+			</p>
+		</div>
+	</div>
+</div>
+
+<div id="CONTACT" class="container">
+	<div class="row">
+		<form class="form-horizontal" method="POST" action="https://formspree.io/trinarina2310@gmail.com">
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="name">NAME:</label>
+				<div class="col-sm-10">
+					<input class="form-control" type="text" name="name" placeholder="" required>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="email">EMAIL:</label>
+				<div class="col-sm-10">
+					<input class="form-control" type="email" name="_replyto" placeholder="" required>
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="phone">PHONE:</label>
+				<div class="col-sm-10">
+					<input class="form-control" type="tel" name="phone" placeholder="">
+				</div>
+			</div>
+			<div class="form-group">
+				<label class="control-label col-sm-2" for="message">MESSAGE:</label>
+				<div class="col-sm-10">
+					<textarea class="form-control" rows="8" name="message" placeholder="Leave A Message!" required></textarea>
+				</div>
+			</div>
+			<input type="text" name="_gotcha" style="display:none">
+			<div class="form-group">
+				<div class="col-sm-offset-2 col-sm-10">
+					<button type="submit" class="btn btn-lg">SEND</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</div>
 
 <div id="credits" class="text-center">
 	<h4>

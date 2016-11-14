@@ -9,7 +9,7 @@ layout: compress
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- for Google -->
 		{% if page.description %}<meta name="description" content="{{page.description}}"/>{% endif %}
-		<meta name="google-site-verification" content=""/>
+		<meta name="google-site-verification" content="BlAyZCMWCZYumHsnAQF78ICn5L99HIcpxLZV32ru8P8" />
 		<title>{{page.title}}</title>
 
 		<!-- for Facebook -->
@@ -17,7 +17,7 @@ layout: compress
 		<meta property="og:url" content="{% if page.ogurl %}{{page.ogurl}}{% else %}{{site.url}}{% endif %}">
 		<meta property="og:type" content="{% if page.ogtype %}{{page.ogtype}}{% else %}website{% endif %}">
 		{% if page.description %}<meta property="og:description" content="{{page.description}}">{% endif %}
-		<!-- <meta property="og:image" content="{% if page.ogimage %}{{page.ogimage}}{% else %}{{site.url}}/commons/images/me.jpg{% endif %}"> -->
+		<meta property="og:image" content="{% if page.ogimage %}{{page.ogimage}}{% else %}{{site.url}}/commons/images/min/me.jpg{% endif %}">
 
 		{% if page.header %}{% include {{page.header}} %}{% endif %}
 		<link rel="icon" type="image/png" href="{{site.url}}/commons/images/spades.png">

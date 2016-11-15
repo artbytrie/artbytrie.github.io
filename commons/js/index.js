@@ -1,14 +1,14 @@
 (function main() {
 	var active = $('ul.nav li.active');
 
-	$('#ART').add('#credits').show(900);
+	$('#ART').add('#credits').fadeIn(900);
 
 	$('ul.nav').on('click', 'li', function() {
 		$(active.removeClass('active')
 		        .find('a')
-		        .attr('href')).hide(300);
+		        .attr('href')).fadeOut(300);
 		$((active = $(this)).addClass('active')
 		                    .find('a')
-		                    .attr('href')).show(600);
+		                    .attr('href')).fadeIn(1800);
 	});
 })();

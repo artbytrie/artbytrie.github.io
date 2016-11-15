@@ -30,8 +30,9 @@ header: indexhead.html
 			{% for work in site.data.works %}
 			<div class="work col-xs-6 col-md-4 col-lg-3">
 				<a href="{{site.url}}/commons/images/{{work.href}}" target="_blank">
-					<img class="galleryimg img-rounded img-responsive" src="{{site.url}}/commons/images/min/{{work.src}}" alt="{{work.alt}}"/>
+					<img class="galleryimg img-rounded img-responsive" src="{{site.url}}/commons/images/min/{{work.src}}" alt="{{work.src | remove: '.jpg' | replace:'_',' '}}"/>
 				</a>
+				<h5>{{work.src | remove: '.jpg' | replace:'_',' '}}</h5>
 			</div>
 			{% endfor %}
 		</div>

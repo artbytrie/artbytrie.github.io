@@ -18,20 +18,12 @@
   src: "fatema.jpg"
   summary: 'Cats cats cats'
 
-- href: "royal_silhouette.jpg"
-  src: "royal_silhouette.jpg"
-  summary: 'Cats cats cats'
-
-- href: "mandela.jpg"
-  src: "mandela.jpg"
-  summary: 'Cats cats cats'
-
 - href: "hamsa.jpg"
   src: "hamsa.jpg"
   summary: 'Cats cats cats'
 
-- href: "magicguitar.JPG"
-  src: "magicguitar.jpg"
+- href: "magic_guitar.JPG"
+  src: "magic_guitar.jpg"
   summary: 'Cats cats cats'
 
 - href: "arati.JPG"

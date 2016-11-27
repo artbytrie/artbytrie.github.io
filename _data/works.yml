@@ -10,6 +10,10 @@
   src: "disconnect.jpg"
   summary: 'Cats cats cats'
 
+- href: "bad_bitch.jpg"
+  src: "bad_bitch.jpg"
+  summary: 'Cats cats cats'
+
 - href: "ganesha.JPG"
   src: "ganesha.jpg"
   summary: 'Cats cats cats'
@@ -38,6 +42,10 @@
   src: "lotus.jpg"
   summary: 'Cats cats cats'
 
+- href: "roxanne.jpg"
+  src: "roxanne.jpg"
+  summary: 'Cats cats cats'
+
 - href: "kindness.jpg"
   src: "kindness.jpg"
   summary: 'Cats cats cats'
@@ -48,4 +56,8 @@
 
 - href: "seaside.JPG"
   src: "seaside.jpg"
+  summary: 'Cats cats cats'
+
+- href: "id.jpeg"
+  src: "id.jpg"
   summary: 'Cats cats cats'
